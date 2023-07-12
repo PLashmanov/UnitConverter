@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    
+    <style>input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    <div class="hero">
+        <h1 class="title">Metric/Imperial Unit Convertor</h1>
+        <input id="input-number" type="number">
+        <button id="convert-btn">Convert</button>
+    </div>
+    <div class="container">
+        <div class = "length-class">
+            <h2 class="measure" id="length">Length(Meter/Feet)</h2>
+            <p id="length-conv">0 meters = 0 feet | 0 feet = 0 meters</p>
+        </div> 
+        <div class="volume-class">
+            <h2 class="measure" id="volume">Volume(Liters/Gallons)</h2>
+            <p id="volume-conv">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+        </div>
+        <div class="mass-class">
+            <h2 class="measure" id="mass">Mass(Kilograms/Pounds)</h2>
+            <p id="mass-conv">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+        </div>
+    </div>
+</body>
+</html>
